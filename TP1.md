@@ -48,8 +48,18 @@ Vagrant.configure("2") do |config|
 
   # Provisioning avec un script bash
   config.vm.provision "shell", path: "script.sh"
+
 end
 ```
+**Repackaging**
+
+```
+  # Repackaging de la VM
+  config.vm.provision "shell", inline: "vagrant package --output rocky-efrei.box"
+```
+
+
+
 
 
 
