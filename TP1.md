@@ -51,6 +51,14 @@ Vagrant.configure("2") do |config|
 
 end
 ```
+**Script**
+```
+#!/bin/bashx
+sudo dnf install -y vim python3
+
+sudo dnf update -y 
+```
+
 **Repackaging**
 
 ```
