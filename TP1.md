@@ -53,7 +53,7 @@ end
 ```
 **Script**
 ```
-#!/bin/bashx
+#!/bin/bash
 sudo dnf install -y vim python3
 
 sudo dnf update -y 
@@ -112,15 +112,13 @@ rtt min/avg/max/mdev = 0.776/10.964/41.311/17.520 ms
 
 Script.sh
 ```
-#!/bin/bashx
-sudo dnf install -y vim python3
+#!/bin/bash
 
-sudo dnf update -y 
-
-
-sudo dnf install -y cloud-init
+sudo dnf update -y
+sudo dnf install -y vim python3 cloud-init 
 
 sudo systemctl enable cloud-init 
+
 ```
 
 
