@@ -108,6 +108,24 @@ PING 10.1.1.102 (10.1.1.102) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.776/10.964/41.311/17.520 ms
 ```
 
+**Cloud-init**
+
+Script.sh
+```
+#!/bin/bashx
+sudo dnf install -y vim python3
+
+sudo dnf update -y 
+
+
+sudo dnf install -y cloud-init
+
+sudo systemctl enable cloud-init 
+```
+
+
+
+
 
 
 
